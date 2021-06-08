@@ -1,7 +1,7 @@
 /**
- * Hello world in Rust language
- * 
- * Author: Amittai Joel (github: @siavava)
+ * ! Hello world in Rust language
+ * TODO: build more complex programs.
+ * ? Author: Amittai Joel (github: @siavava)
  */
 
 fn main() {
