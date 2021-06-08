@@ -26,9 +26,17 @@ fn main() {
   
     // Read in input
     let mut guess = String::new();
+
+    // Read in line from stdin, expect exception
     io::stdin().read_line(&mut guess).expect("Failed to read line");
+
+    // Cast input to integer, handle exception case
     let guess: u32 = match guess.trim().parse() {
+
+      // if okay, save num
       Ok(num) => num,
+
+      // if not okay, print error message and continue to next iteration
       Err(_) => {
         println!("Please enter a valid number.");
         continue;
