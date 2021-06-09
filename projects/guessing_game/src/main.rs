@@ -8,8 +8,10 @@
 /// 
 /// Author: siavava <amittaijoel@outlook.com>
 
+/// external crate
 extern crate rand;
 
+/// utilities
 use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
