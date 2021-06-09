@@ -20,6 +20,7 @@ fn main() {
 
   // loop
   loop {
+    
     // Prompt
     print!("Guess the number:\n");
     println!("Please enter your guess.");
